@@ -1,0 +1,2 @@
+rrt_planner:teb_local_planner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/chacha/glocal/devel -DCMAKE_INSTALL_PREFIX=/home/chacha/glocal/install -G Unix Makefiles

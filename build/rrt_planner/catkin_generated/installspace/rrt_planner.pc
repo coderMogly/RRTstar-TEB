@@ -1,0 +1,8 @@
+prefix=/home/chacha/glocal/install
+
+Name: rrt_planner
+Description: Description of rrt_planner
+Version: 0.0.0
+Cflags: -I/home/chacha/glocal/install/include
+Libs: -L/home/chacha/glocal/install/lib -lrrt_planner
+Requires: costmap_2d geometry_msgs nav_core navfn nav_msgs pluginlib roscpp tf base_local_planner

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chacha/glocal/src/teb_local_planner_tutorials/scripts/stream.cpp
+ros/ros.h
+/home/chacha/glocal/src/teb_local_planner_tutorials/scripts/ros/ros.h
+tf/transform_listener.h
+/home/chacha/glocal/src/teb_local_planner_tutorials/scripts/tf/transform_listener.h
+tf/message_filter.h
+/home/chacha/glocal/src/teb_local_planner_tutorials/scripts/tf/message_filter.h
+message_filters/subscriber.h
+/home/chacha/glocal/src/teb_local_planner_tutorials/scripts/message_filters/subscriber.h
+

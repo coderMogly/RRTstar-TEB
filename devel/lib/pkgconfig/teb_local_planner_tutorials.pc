@@ -1,0 +1,8 @@
+prefix=/home/chacha/glocal/devel
+
+Name: teb_local_planner_tutorials
+Description: Description of teb_local_planner_tutorials
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/chacha/glocal/devel/lib 
+Requires: 
