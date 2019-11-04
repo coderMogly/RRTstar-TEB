@@ -11,3 +11,15 @@ It implements RRT* as a global planner using OMPL with TEB local planner. ROS na
 1. Create a catkin workspace in Ubuntu home directory.
 2. Clone the source code.
 3. Build the workspace and enjoy.
+
+# Requirements
+1. ROS indigo 
+2. Ubuntu 14.04 
+
+# dependencies 
+1. geometry_msgs
+2. nav_msgs 
+3. rviz physics engine 
+4. Stage simulator
+5. Ompl
+6. ROS nav_stack 
