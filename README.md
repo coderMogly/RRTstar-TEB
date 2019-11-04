@@ -1,9 +1,13 @@
 # RRTstar-TEB
-This is my code for my Bachelors Thesis. Simulation and comparison of various path planing algorithms for autonomous vehicle. 
+Code for my Bachelors Thesis. Simulation and comparison of various path planing algorithms for autonomous vehicle. 
 
-It implements RRT* as a global planner with TEB local planner. ROS navigation stack is used extensively. There is also a comparison study between RRT and RRT*. 
+It implements RRT* as a global planner using OMPL with TEB local planner. ROS navigation stack is used with move base being the executive coordinator between the local and global planner. Th
 
+# TODO:
+1. Add comments in code.
+2. Create a doxy documentation of the project.
 
-
-Feel free to use it just don't copy it as it as. This was uploaded for easy sharing between the project people and not for general public and hence it is not well commented. I will comment it as soon as I get time. 
-Till then Cheers!!!
+# Instruction
+1. Create a catkin workspace in Ubuntu home directory.
+2. Clone the source code.
+3. Build the workspace and enjoy.
