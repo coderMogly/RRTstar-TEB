@@ -9,7 +9,7 @@ It implements RRT* as a global planner using OMPL with TEB local planner. ROS na
 
 # Instruction
 1. Create a catkin workspace in Ubuntu home directory.
-2. Clone the source code.
+2. Clone the source code.(please delete the build and devel folder they are system specific and would be created when catkin_make is invoked in catkin workspace root folder)
 3. Build the workspace and enjoy.
 
 # Requirements
